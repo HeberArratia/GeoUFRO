@@ -7,6 +7,7 @@
 	opacity: 0;
 	transition: visibility 0s, opacity 0.2s linear;
 	box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+	display: none;
 	#lgo{
 		padding-top: 10px;
 		font-family: $lato;

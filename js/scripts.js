@@ -4,6 +4,14 @@ $(document).ready(function(){
 		autoPlay: 3000,
 		wrapAround: true
 	});
+
+
+	if ($(window).width() > 960) {
+	   $('#menu').css({'display' : 'block'});
+	}
+	else {
+	   //alert('More than 960');
+	}
     
     $(window).scroll(function() {
 	    if($(window).scrollTop() > 400){

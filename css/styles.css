@@ -69,17 +69,6 @@ header {
     position: relative;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     margin-bottom: 140px; }
-    @media (max-width: 992px) {
-      header #header-box {
-        margin-bottom: 50px !important;
-        height: 1000px; }
-        header #header-box #main-text {
-          padding-top: 40px !important;
-          text-align: center; }
-          header #header-box #main-text p {
-            width: 100%;
-            text-align: center;
-            margin: 0 auto; } }
     header #header-box:after {
       content: '';
       width: 100%;
@@ -90,6 +79,11 @@ header {
       bottom: 0;
       transform-origin: right bottom;
       transform: skewY(-2deg); }
+    @media (max-width: 768px) {
+      header #header-box h1 {
+        font-size: 3.3em !important; }
+      header #header-box p {
+        font-size: 1.7em !important; } }
     header #header-box #main-text {
       padding-top: 95px;
       font-family: "Lato", sans-serif;
@@ -125,7 +119,27 @@ header {
         text-align: center;
         display: block;
         margin: 0 auto;
-        margin-top: 30px; } }
+        margin-top: 30px;
+        display: none; } }
+    @media (max-width: 992px) {
+      header #header-box {
+        margin-bottom: 50px !important;
+        height: 400px; }
+        header #header-box #main-text {
+          padding-top: 40px;
+          text-align: center; }
+          header #header-box #main-text p {
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 20px; } }
+    @media (max-width: 768px) {
+      header #header-box #main-text {
+        padding-top: 74px; }
+      header #header-box h1 {
+        font-size: 4em !important; }
+      header #header-box p {
+        font-size: 1.7em !important; } }
 
 #content {
   margin-top: 40px;
@@ -263,7 +277,8 @@ footer #second-footer {
   width: 100%;
   opacity: 0;
   transition: visibility 0s, opacity 0.2s linear;
-  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  display: none; }
   #menu #lgo {
     padding-top: 10px;
     font-family: "Lato", sans-serif;
