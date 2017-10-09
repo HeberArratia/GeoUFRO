@@ -1,0 +1,74 @@
+#content{
+	margin-top: 40px;
+	margin-bottom: 50px;
+	#info-geoufro{
+		#main-info{
+			font-family: $lato;
+			color: #333333;
+			text-align: center;
+			h3{
+				font-size: 2.8em;
+				margin-bottom: 25px;
+				color: #516072;
+				font-weight: 400;
+			}
+			p{
+				font-size: 1.3em;
+				color: #4B4B4B;
+				font-weight: 300;
+				line-height: 28px;
+
+			}
+		}
+		#second-info{
+			margin-top: 40px;
+			.box-second-info{
+				padding-bottom: 10px;
+				h3{
+					font-family: $lato;
+					color: #516072;
+					margin-bottom: 23px;
+				}	
+				p{
+					font-family: $lato;
+					color: #4B4B4B;
+					font-size: 1.2em;
+					font-weight: 300;
+					text-align: justify;
+					line-height: 24px;
+				}
+			}
+			#info-items{
+				background: #F7F9FD;
+				height: 425px;
+
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display: flex;
+				flex-direction: column;
+				-webkit-flex-direction: column;
+				justify-content: center;
+				.item-info{
+					padding-top: 23px;
+					padding-bottom: 23px;
+					.media{
+						display: table;
+						padding-left: 20px;
+						padding-right: 20px;
+						img{
+							width: 90px;
+						}
+						.media-body{
+							color: #516072;
+							font-family: $lato;
+							display: table-cell;
+							vertical-align: middle;
+							font-size: 1.4em;
+						}
+					}
+				}
+				
+			}	
+		}
+	}
+}
