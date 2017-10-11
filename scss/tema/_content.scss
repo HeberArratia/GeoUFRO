@@ -40,7 +40,9 @@
 			}
 			#info-items{
 				background: #F7F9FD;
-				height: 425px;
+				//border: 1px dashed #333333;
+				border-radius: 5px;
+				height: 400px;
 
 				display:-webkit-flex;
 				display:-ms-flexbox;
