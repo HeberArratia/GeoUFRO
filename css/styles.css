@@ -215,7 +215,8 @@ header {
       width: 100%; }
       #screens .main-carousel .carousel-cell .content-slide {
         max-width: 800px;
-        margin: 0 auto; }
+        margin: 0 auto;
+        height: 586.95px; }
         #screens .main-carousel .carousel-cell .content-slide p {
           font-family: "Lato", sans-serif;
           font-size: 2em;
